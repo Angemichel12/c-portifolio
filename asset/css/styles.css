@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+font-family: "Saira Extra Condensed", sans-serif;
+}
+.container{
+	display: flex;
+}
+
+.navigations{
+	background-color: #bd5d38;
+	width: 270px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.profile_image{
+	margin-bottom: 2rem;
+}
+.profile_image img{
+	border: 0.5rem solid #fd7e14;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.nav_items{
+	list-style: none;
+}
+.nav_items li{
+	margin: 1rem 0;
+}
+.nav_items li a{
+	color: rgba(255,255,255,.5);
+	text-decoration: none;
+	font-size: 1.4rem;
+
+}
+.nav_items li a:hover{
+	color: rgba(255,255,255,1);
+}
+main{
+	width: calc(100% - 280px);
+	padding: 0 4rem;
+}
+#about{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+.title{
+	margin-bottom: 2rem;
+}
+.title h1{
+	font-size: 6rem;
+	line-height: 5.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343a40;
+}
+.title h1 span{
+	color: #bd5d38;
+}
+.title h4{
+	font-size: 1.35rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #868e96;
+}
+.about_email{
+	color:#bd5d38;
+}
+.title_description{
+	color: #868e96;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 4rem;
+}
+.fa-brand{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.social-media{
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #495057;
+	border-radius: 50%;
+	height: 4rem;
+	width: 4rem;
+	text-align: center;
+	padding: 1rem 0;
+}
+.social-media:hover{
+	background-color: #bd5d38;
+}
+.fa-brands{
+	font-size: 2rem;
+	color: #fff;
+}
